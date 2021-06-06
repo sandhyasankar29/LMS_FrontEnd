@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bWDPZI"
+>
+  <div
+    className="StyledBox-sc-13pk1d4-0 HvGCm"
+  >
+    <button
+      className="StyledButton-sc-323bzc-0 bexXh"
+      id="HomeBtn"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      <div
+        className="StyledBox-sc-13pk1d4-0 iQEJEP"
+      >
+        <svg
+          aria-label="Home"
+          className="StyledIcon-ofa7kd-0 dcacLZ"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M1,11 L12,2 L23,11 M15,23 L15,15 L15,15 L9,15 L9,23 M4,23 L4,9 M20,23 L20,9"
+            fill="none"
+            stroke="#000"
+            strokeWidth="2"
+          />
+        </svg>
+        <div
+          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 hjorfk"
+        />
+        Go to Home
+      </div>
+    </button>
+  </div>
+  <div
+    className="StyledBox-sc-13pk1d4-0 bxevCE"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 bJtzEt"
+      style={
+        Object {
+          "marginBottom": "3%",
+        }
+      }
+    >
+      <img
+        className="StyledImage-ey4zx9-0 iBeQsm"
+        src="adminSignIn.svg"
+      />
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 gfocoz"
+    >
+      <div
+        className="StyledBox-sc-13pk1d4-0 clcAnq"
+      >
+        <div
+          className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+        >
+          <input
+            autoComplete="off"
+            className="StyledTextInput-sc-1x30a0s-0 hubMyb"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Enter Master Key"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="StyledButton-sc-323bzc-0 hiyJPE"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          type="button"
+        >
+          <svg
+            aria-label="Hide"
+            className="StyledIcon-ofa7kd-0 dEeaTZ"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12,17 C9.27272727,17 6,14.2222222 6,12 C6,9.77777778 9.27272727,7 12,7 C14.7272727,7 18,9.77777778 18,12 C18,14.2222222 14.7272727,17 12,17 Z M11,12 C11,12.55225 11.44775,13 12,13 C12.55225,13 13,12.55225 13,12 C13,11.44775 12.55225,11 12,11 C11.44775,11 11,11.44775 11,12 Z M20,5 L4,19"
+              fill="none"
+              stroke="#000"
+              strokeWidth="2"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="StyledBox-sc-13pk1d4-0 cgsQvy"
+      >
+        <button
+          className="StyledButton-sc-323bzc-0 iVPikU"
+          data-testid="button"
+          id="submitBtn"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          type="submit"
+        >
+          Log In
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

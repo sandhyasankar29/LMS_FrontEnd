@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bWDPZI"
+  style={
+    Object {
+      "overflowY": "scroll",
+    }
+  }
+>
+  <header
+    className="StyledBox-sc-13pk1d4-0 jwhdBG"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 dfYOnT"
+    >
+      <svg
+        aria-label="User"
+        className="StyledIcon-ofa7kd-0 dcacLZ"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M8,24 L8,19 M16,24 L16,19 M3,24 L3,19 C3,14.0294373 7.02943725,11 12,11 C16.9705627,11 21,14.0294373 21,19 L21,24 M12,11 C14.7614237,11 17,8.76142375 17,6 C17,3.23857625 14.7614237,1 12,1 C9.23857625,1 7,3.23857625 7,6 C7,8.76142375 9.23857625,11 12,11 Z"
+          fill="none"
+          stroke="#000"
+          strokeWidth="2"
+        />
+      </svg>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 eBVJAG"
+      />
+      <a
+        className="StyledAnchor-sc-1rp7lwl-0 ePWGdF"
+        href="#"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Welcome 
+      </a>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 eBVJAG"
+      />
+      <div
+        className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+      >
+        <div
+          className="StyledTextInput__StyledIcon-sc-1x30a0s-3 kdffHW"
+        >
+          <svg
+            aria-label="Search"
+            className="StyledIcon-ofa7kd-0 dcacLZ"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15,15 L22,22 L15,15 Z M9.5,17 C13.6421356,17 17,13.6421356 17,9.5 C17,5.35786438 13.6421356,2 9.5,2 C5.35786438,2 2,5.35786438 2,9.5 C2,13.6421356 5.35786438,17 9.5,17 Z"
+              fill="none"
+              stroke="#000"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+        <input
+          autoComplete="off"
+          className="StyledTextInput-sc-1x30a0s-0 eQRxlb"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="search ..."
+        />
+      </div>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 eBVJAG"
+      />
+      <button
+        aria-label="Open Drop"
+        className="StyledButton-sc-323bzc-0 ebqXLG Select__StyledSelectDropButton-sc-17idtfo-1 crRwtP"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        type="button"
+      >
+        <div
+          className="StyledBox-sc-13pk1d4-0 jmuHez"
+        >
+          <div
+            className="StyledBox-sc-13pk1d4-0 iAryDB"
+          >
+            <div
+              className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+            >
+              <input
+                autoComplete="off"
+                className="StyledTextInput-sc-1x30a0s-0 cHxZtY Select__SelectTextInput-sc-17idtfo-0 bIurki"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                readOnly={true}
+                tabIndex="-1"
+                type="text"
+                value="Reason"
+              />
+            </div>
+          </div>
+          <div
+            className="StyledBox-sc-13pk1d4-0 eA-DBEo"
+            style={
+              Object {
+                "minWidth": "auto",
+              }
+            }
+          >
+            <svg
+              aria-label="Filter"
+              className="StyledIcon-ofa7kd-0 cQhgnt"
+              viewBox="0 0 24 24"
+            >
+              <polygon
+                fill="none"
+                points="3 6 10 13 10 21 14 21 14 13 21 6 21 3 3 3"
+                stroke="#000"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
+        </div>
+      </button>
+    </div>
+    <div
+      className="StyledBox__StyledBoxGap-sc-13pk1d4-1 ffHQai"
+    />
+    <nav
+      className="StyledBox-sc-13pk1d4-0 glIhNO"
+    >
+      <a
+        className="StyledAnchor-sc-1rp7lwl-0 eaoGTv"
+        href="/studentDashboard"
+        id="dashboard"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Dashboard
+      </a>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 ffHQai"
+      />
+      <a
+        className="StyledAnchor-sc-1rp7lwl-0 eaoGTv"
+        href="/studentpastapplication"
+        id="pastApplication"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Past Application
+      </a>
+      <div
+        className="StyledBox__StyledBoxGap-sc-13pk1d4-1 ffHQai"
+      />
+      <button
+        className="StyledButton-sc-323bzc-0 bZMlsb"
+        id="logoutBtn"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        type="button"
+      >
+        <svg
+          aria-label="Logout"
+          className="StyledIcon-ofa7kd-0 eBBIEF"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M13,9 L13,2 L1,2 L1,22 L13,22 L13,15 M22,12 L5,12 M17,7 L22,12 L17,17"
+            fill="none"
+            stroke="#231F20"
+            strokeWidth="2"
+          />
+        </svg>
+      </button>
+    </nav>
+  </header>
+</div>
+`;

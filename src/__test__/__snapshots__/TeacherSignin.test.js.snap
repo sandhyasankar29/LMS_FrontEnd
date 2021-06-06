@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bWDPZI"
+>
+  <div
+    className="StyledBox-sc-13pk1d4-0 HvGCm"
+  >
+    <button
+      className="StyledButton-sc-323bzc-0 bexXh"
+      id="HomeBtn"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      type="button"
+    >
+      <div
+        className="StyledBox-sc-13pk1d4-0 iQEJEP"
+      >
+        <svg
+          aria-label="Home"
+          className="StyledIcon-ofa7kd-0 dcacLZ"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M1,11 L12,2 L23,11 M15,23 L15,15 L15,15 L9,15 L9,23 M4,23 L4,9 M20,23 L20,9"
+            fill="none"
+            stroke="#000"
+            strokeWidth="2"
+          />
+        </svg>
+        <div
+          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 hjorfk"
+        />
+        Go to Home
+      </div>
+    </button>
+  </div>
+  <div
+    className="StyledBox-sc-13pk1d4-0 bxevCE"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 bJtzEt"
+      style={
+        Object {
+          "marginBottom": "3%",
+        }
+      }
+    >
+      <img
+        className="StyledImage-ey4zx9-0 iBeQsm"
+        src="teacher.svg"
+      />
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 dYebPD StyledTabs-a4fwxl-2 jQLYpX"
+      role="tablist"
+    >
+      <div
+        className="StyledBox-sc-13pk1d4-0 hiXrYh StyledTabs__StyledTabsHeader-a4fwxl-0 gwFYfs"
+      >
+        <button
+          aria-expanded={true}
+          aria-selected={true}
+          className="StyledButton-sc-323bzc-0 ebqXLG"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          role="tab"
+          type="button"
+        >
+          <div
+            className="StyledBox-sc-13pk1d4-0 cLWgPR StyledTab-sc-1nnwnsb-0 kVEPVO"
+          >
+            <span
+              className="StyledText-sc-1sadyjn-0 gWegOF"
+            >
+              Credentials
+            </span>
+          </div>
+        </button>
+        <button
+          aria-expanded={false}
+          aria-selected={false}
+          className="StyledButton-sc-323bzc-0 ebqXLG"
+          id="otpLogin"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          role="tab"
+          type="button"
+        >
+          <div
+            className="StyledBox-sc-13pk1d4-0 gdixjB StyledTab-sc-1nnwnsb-0 kVEPVO"
+          >
+            <span
+              className="StyledText-sc-1sadyjn-0 gImgGD"
+            >
+              OTP
+            </span>
+          </div>
+        </button>
+      </div>
+      <div
+        aria-label=" Tab Contents"
+        className="StyledTabs__StyledTabPanel-a4fwxl-1 ixxRXT"
+        role="tabpanel"
+      />
+    </div>
+  </div>
+</div>
+`;

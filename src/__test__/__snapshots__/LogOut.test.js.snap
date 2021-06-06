@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<button
+  className="StyledButton-sc-323bzc-0 bZMlsb"
+  id="logoutBtn"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+  type="button"
+>
+  <svg
+    aria-label="Logout"
+    className="StyledIcon-ofa7kd-0 eBBIEF"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M13,9 L13,2 L1,2 L1,22 L13,22 L13,15 M22,12 L5,12 M17,7 L22,12 L17,17"
+      fill="none"
+      stroke="#231F20"
+      strokeWidth="2"
+    />
+  </svg>
+</button>
+`;

@@ -1,0 +1,57 @@
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.b--black-20 {
+    border-color: rgba(0, 0, 0, .2);
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.mw8 {
+    max-width: 64rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.pa4 {
+    padding: 2rem;
+}
+
+.pr3 {
+    padding-right: 1rem;
+}
+
+.pb3 {
+    padding-bottom: 1rem;
+}
+
+.pv3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tl {
+    text-align: left;
+}
+
+.f6 {
+    font-size: .875rem;
+}

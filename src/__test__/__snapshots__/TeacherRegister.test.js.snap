@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bWDPZI"
+>
+  <div
+    className="StyledGrid-sc-1wofa1l-0 inzmHE"
+  >
+    <div
+      className="StyledBox-sc-13pk1d4-0 jKMlzI"
+      style={
+        Object {
+          "marginLeft": "50%",
+        }
+      }
+    >
+      <div
+        className="StyledBox-sc-13pk1d4-0 gfocoz"
+      >
+        <form
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <label
+              className="StyledText-sc-1sadyjn-0 drTEXR"
+            >
+              First Name
+            </label>
+            <div
+              className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+            >
+              <div
+                className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+              >
+                <input
+                  autoComplete="off"
+                  className="StyledTextInput-sc-1x30a0s-0 iuIygK"
+                  name="name"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Registered First Name"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <label
+              className="StyledText-sc-1sadyjn-0 drTEXR"
+            >
+              Last Name
+            </label>
+            <div
+              className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+            >
+              <div
+                className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+              >
+                <input
+                  autoComplete="off"
+                  className="StyledTextInput-sc-1x30a0s-0 iuIygK"
+                  name="lastName"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Registered Last Name"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <label
+              className="StyledText-sc-1sadyjn-0 drTEXR"
+            >
+              Email
+            </label>
+            <div
+              className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+            >
+              <div
+                className="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 dOerlP"
+              >
+                <input
+                  autoComplete="off"
+                  className="StyledMaskedInput-sc-99vkfa-0 gMZsTd"
+                  name="email"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="example@gmail.com"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <label
+              className="StyledText-sc-1sadyjn-0 drTEXR"
+            >
+              Teacher ID
+            </label>
+            <div
+              className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+            >
+              <div
+                className="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 dOerlP"
+              >
+                <input
+                  autoComplete="off"
+                  className="StyledMaskedInput-sc-99vkfa-0 gMZsTd"
+                  name="rollNo"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="xxDeptxxx"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="StyledBox-sc-13pk1d4-0 LAyOB"
+          >
+            <button
+              className="StyledButton-sc-323bzc-0 jfCvHs"
+              data-testid="button"
+              id="registerBtn"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onMouseOut={[Function]}
+              onMouseOver={[Function]}
+              type="submit"
+            >
+              Register
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      className="StyledBox-sc-13pk1d4-0 cQVhiT"
+      style={
+        Object {
+          "marginLeft": "75%",
+        }
+      }
+    >
+      <div
+        className="StyledBox-sc-13pk1d4-0 gfocoz"
+      >
+        <form
+          onReset={[Function]}
+          onSubmit={[Function]}
+        />
+        <div
+          className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <label
+            className="StyledText-sc-1sadyjn-0 drTEXR"
+          >
+            Phone Number
+          </label>
+          <div
+            className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+          >
+            <div
+              className="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 dOerlP"
+            >
+              <input
+                autoComplete="off"
+                className="StyledMaskedInput-sc-99vkfa-0 gMZsTd"
+                name="phNo"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Phone Number"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <label
+            className="StyledText-sc-1sadyjn-0 drTEXR"
+          >
+            Date of Joining
+          </label>
+          <div
+            className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+          >
+            <div
+              className="StyledMaskedInput__StyledMaskedInputContainer-sc-99vkfa-1 dOerlP"
+            >
+              <input
+                autoComplete="off"
+                className="StyledMaskedInput-sc-99vkfa-0 gMZsTd"
+                name="doj"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="yyyy-mm-dd"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="StyledBox-sc-13pk1d4-0 hNtvAO"
+        >
+          <div
+            className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <label
+              className="StyledText-sc-1sadyjn-0 drTEXR"
+            >
+              Branch
+            </label>
+            <div
+              className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+            >
+              <button
+                aria-label="Open Drop"
+                className="StyledButton-sc-323bzc-0 hkpJCj Select__StyledSelectDropButton-sc-17idtfo-1 dYfCep"
+                id="branch"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+                type="button"
+              >
+                <div
+                  className="StyledBox-sc-13pk1d4-0 jmuHez"
+                >
+                  <div
+                    className="StyledBox-sc-13pk1d4-0 iAryDB"
+                  >
+                    <div
+                      className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+                    >
+                      <input
+                        autoComplete="off"
+                        className="StyledTextInput-sc-1x30a0s-0 iuIygK Select__SelectTextInput-sc-17idtfo-0 bIurki"
+                        id="branch__input"
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        readOnly={true}
+                        tabIndex="-1"
+                        type="text"
+                        value="Choose"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    className="StyledBox-sc-13pk1d4-0 eA-DBEo"
+                    style={
+                      Object {
+                        "minWidth": "auto",
+                      }
+                    }
+                  >
+                    <svg
+                      aria-label="FormDown"
+                      className="StyledIcon-ofa7kd-0 fuviCN"
+                      viewBox="0 0 24 24"
+                    >
+                      <polyline
+                        fill="none"
+                        points="18 9 12 15 6 9"
+                        stroke="#000"
+                        strokeWidth="2"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="StyledBox-sc-13pk1d4-0 dLXLoO FormField__FormFieldBox-m9hood-0 jGEMXj"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <label
+            className="StyledText-sc-1sadyjn-0 drTEXR"
+          >
+            Preferred Password
+          </label>
+          <div
+            className="StyledBox-sc-13pk1d4-0 gmReJc FormField__FormFieldContentBox-m9hood-1"
+          >
+            <div
+              className="StyledBox-sc-13pk1d4-0 hpZuiW"
+            >
+              <div
+                className="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 dpaJQp"
+              >
+                <input
+                  autoComplete="off"
+                  className="StyledTextInput-sc-1x30a0s-0 hubMyb"
+                  name="passsword"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  type="password"
+                />
+              </div>
+              <button
+                className="StyledButton-sc-323bzc-0 hiyJPE"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseOut={[Function]}
+                onMouseOver={[Function]}
+                type="button"
+              >
+                <svg
+                  aria-label="Hide"
+                  className="StyledIcon-ofa7kd-0 dEeaTZ"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12,17 C9.27272727,17 6,14.2222222 6,12 C6,9.77777778 9.27272727,7 12,7 C14.7272727,7 18,9.77777778 18,12 C18,14.2222222 14.7272727,17 12,17 Z M11,12 C11,12.55225 11.44775,13 12,13 C12.55225,13 13,12.55225 13,12 C13,11.44775 12.55225,11 12,11 C11.44775,11 11,11.44775 11,12 Z M20,5 L4,19"
+                    fill="none"
+                    stroke="#000"
+                    strokeWidth="2"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
