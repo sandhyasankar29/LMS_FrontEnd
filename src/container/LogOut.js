@@ -8,4 +8,3 @@ const LogOut = (props) => {
 }
 
 export default LogOut;
-

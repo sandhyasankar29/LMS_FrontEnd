@@ -16,8 +16,10 @@ import {
 import { Hide, View, Home } from 'grommet-icons';
 import signImage from '../assets/signIn.svg'
 import { grommet } from 'grommet/themes';
-import { urlSignInStudent, urlOtp, urlVerifyOtp } from './Url.js'
 const SignIn = () => {
+    const urlSignIn = 'http://'+{global,ip}.ip+':3001/signinstudent';
+    const urlOtp = 'http://'+{global,ip}.ip+':3001/getotpsignin';
+    const urlVerifyOtp = 'http://'+{global,ip}.ip+':3001/verifysigninotp'
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -39,7 +41,7 @@ const SignIn = () => {
     const onSubmitSignIn = () => {
         console.log(username, password)
         if (username && password) {
-            axios.post(urlSignInStudent, { suserid: username, password: password })
+            axios.post(urlSignIn, { suserid: username, password: password })
                 .then(res => {
                     if ((res.data.status).length > 0) {
                         localStorage.setItem("suserid", res.data.suserid)
@@ -193,7 +195,7 @@ const SignIn = () => {
                                         value={otp}
                                         onChange={(event) => setOTP(event.target.value)}
                                     />
-                                    <Button
+                                    <Button 
                                         icon={reveal ? <View size="medium" /> : <Hide size="medium" />}
                                         onClick={() => setReveal(!reveal)}
                                     />

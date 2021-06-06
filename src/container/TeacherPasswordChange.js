@@ -22,8 +22,10 @@ import passImage from '../assets/teacherpass.svg'
 import LogOut from './LogOut';
 import { grommet } from 'grommet/themes';
 import Swal from 'sweetalert2'
-import { urlChangeTeacher, urlVerifyTeacher } from './Url'
+import './GlobalVariables'
 const TeacherPasswordChange = () => {
+    const urlChange = 'http://'+{global,ip}.ip+':3001/changepassword';
+    const urlVerify = 'http://'+{global,ip}.ip+':3001/verifyteacherotp';
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -48,7 +50,7 @@ const TeacherPasswordChange = () => {
     ];
     const onSubmitPass = () => {
         if (email && password) {
-            axios.post(urlChangeTeacher, {
+            axios.post(urlChange, {
                 tuserid: localStorage.getItem('tuserid'),
                 password: password,
                 email: email,
@@ -68,7 +70,7 @@ const TeacherPasswordChange = () => {
     const onOTPSubmit = () => {
         setOpen(false)
         if (newpass && otp) {
-            axios.post(urlVerifyTeacher, {
+            axios.post(urlVerify, {
                 tuserid: localStorage.getItem('tuserid'),
                 password: newpass,
                 otp: otp

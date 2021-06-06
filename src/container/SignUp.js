@@ -18,8 +18,9 @@ import {
 } from 'grommet';
 import { Hide, View } from 'grommet-icons';
 import { grommet } from 'grommet/themes';
-import { urlRegisterStudent, urlVerify } from './Url'
 export const SignUp = () => {
+    const urlRegister = 'http://'+{global,ip}.ip+':3001/registerstudent';
+    const urlVerify = 'http://'+{global,ip}.ip+':3001/verifystudent'
     const Toast = Swal.mixin({
         toast: true,
         position: 'top-end',
@@ -55,7 +56,7 @@ export const SignUp = () => {
             })
         }
         if (res && name && lastName && email && dob && yoc && branch && section && password) {
-            axios.post(urlRegisterStudent, {
+            axios.post(urlRegister, {
                 suserid: rollNo,
                 firstname: name,
                 email: email,

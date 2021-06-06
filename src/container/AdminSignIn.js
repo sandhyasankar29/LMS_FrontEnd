@@ -13,14 +13,15 @@ import { Hide, View, Home } from 'grommet-icons';
 import signImage from '../assets/adminSignIn.svg'
 import { grommet } from 'grommet/themes';
 import Swal from 'sweetalert2'
-import { urlSignInAdmin } from './Url.js'
 const AdminSignIn = () => {
+    const urlSignIn = 'http://'+{global,ip}.ip+':3001/signinadmin';
+    console.log(urlSignIn);
     const history = useHistory();
     const [password, setPassword] = useState("")
     const [reveal, setReveal] = useState(false);
     const onSubmitSignIn = () => {
         if (password) {
-            axios.post(urlSignInAdmin, { password: password })
+            axios.post(urlSignIn, { password: password })
                 .then(res => {
                     history.replace('/adminteacherverify')
                 }).catch(error => {
