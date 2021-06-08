@@ -1,1 +1,1 @@
-global.ip="localhost";
+global.ip="3.91.223.49";
