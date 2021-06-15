@@ -61,7 +61,7 @@ const data = [
     },
     {
         icon: <Group size="large" />,
-        title: 'Teacher Portal',
+        title: 'Teacher Portal Login',
         message: 'Teacher Portal to Approve Student Records',
         type: 'point',
         id: 'teacher'
